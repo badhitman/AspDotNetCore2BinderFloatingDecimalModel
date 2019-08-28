@@ -44,7 +44,7 @@ namespace AspDotNetCore2BinderFloatingDecimalModel
             // Таким образом исключаем точки в начале или в конце строки:
             // ".5" -> "0.50"
             // "5." -> "05.0"
-            if (FloatSeparator.IsMatch(FieldValueAsNormalString))
+            if (FloatSeparator.IsMatch(FieldValueAsString))
                 FieldValueAsNormalString = "0" + FieldValueAsNormalString + "0";
 
             ////////////////////////////////////////////////////
