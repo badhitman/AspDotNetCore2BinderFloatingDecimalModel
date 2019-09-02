@@ -27,6 +27,7 @@ public class Startup
 Данный привязчик позволяет использовать любой разделитель дроби. Любой разделитель принудительно замениться на системный перед конвертацией.
 
 ```C#
+Regex FloatSeparator = new Regex(@"[.,]", RegexOptions.Compiled);
 ////////////////////////////////////////////////////
 // заменим дробный разделитель на текущий системный
 FieldValueAsNormalString = FloatSeparator.Replace(FieldValueAsNormalString, CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator);
