@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>FloatingDecimalBinderModel</RootNamespace>
+    <Authors>https://github.com/badhitman</Authors>
+    <Description>Привязчик модели для числовых значений с плавающей запятой - double, float и decimal</Description>
+    <PackageProjectUrl>https://github.com/badhitman</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/badhitman</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

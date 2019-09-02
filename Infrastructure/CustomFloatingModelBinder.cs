@@ -7,7 +7,7 @@ using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace AspDotNetCore2BinderFloatingDecimalModel
+namespace FloatingDecimalBinderModel
 {
     public class CustomFloatingModelBinder : IModelBinder
     {

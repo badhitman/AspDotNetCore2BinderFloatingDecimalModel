@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using Microsoft.Extensions.Logging;
 
-namespace AspDotNetCore2BinderFloatingDecimalModel
+namespace FloatingDecimalBinderModel
 {
     public class CustomDecimalModelBinderProvider : IModelBinderProvider
     {
