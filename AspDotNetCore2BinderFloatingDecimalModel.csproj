@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>FloatingDecimalBinderModel</RootNamespace>
     <Authors>https://github.com/badhitman</Authors>
     <Description>Привязчик модели для числовых значений с плавающей запятой - double, float и decimal</Description>
